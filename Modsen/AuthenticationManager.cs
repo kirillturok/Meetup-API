@@ -17,7 +17,7 @@ namespace Modsen
     {
         private readonly UserManager<User> _userManager;
         private readonly IConfiguration _configuration;
-        private User _user;
+        private User? _user;
 
         public AuthenticationManager(UserManager<User> userManager, IConfiguration
             configuration)
